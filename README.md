@@ -25,3 +25,6 @@
 - #### 07 npm test or yarn test
 
 - #### **Reports Preview Below**
+
+![Reports Preview](./collection/Report-1.png)
+![Reports Preview](./collection/Report-2.PNG)
