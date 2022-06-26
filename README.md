@@ -4,9 +4,9 @@
 
 ### **Assignment API testing with Postman**
 
-- #### 01 [API testing Postman Collection](https://www.getpostman.com/collections/36418ebe6791fa746576)
+- #### 01 [API testing Postman Collection](https://www.getpostman.com/collections/4368ea8fe8fa38d5428e)
 
-- #### 02 [API testing Postman Documentation](https://documenter.getpostman.com/view/21523077/UzBpM6R1)
+- #### 02 [API testing Postman Documentation](https://documenter.getpostman.com/view/21091753/UzBsHPa3)
 
 ### **How to run this project**
 
@@ -25,6 +25,3 @@
 - #### 07 npm test or yarn test
 
 - #### **Reports Preview Below**
-
-![Reports Preview](./collection/Report-1.png)
-![Reports Preview](./collection/Report-2.PNG)
