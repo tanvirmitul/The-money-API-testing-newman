@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "Create New User",
+			"name": "Customer login",
 			"event": [
 				{
 					"listen": "test",
@@ -22,8 +22,8 @@
 							"});\r",
 							"\r",
 							"    var jsonData = pm.response.json();\r",
-							"    var token= jsonData.token;\r",
-							"    pm.collectionVariables.set(\"token\",token)\r",
+							"    var tooken= jsonData.token;\r",
+							"    pm.collectionVariables.set(\"tooken\",tooken)\r",
 							""
 						],
 						"type": "text/javascript"
@@ -71,11 +71,11 @@
 							"});\r",
 							"pm.test(\"Your test name\", function () {\r",
 							"    var jsonData = pm.response.json();\r",
-							"    pm.expect(jsonData.users[0].name).contains(\"Carmen Reinger\");\r",
+							"    pm.expect(jsonData.users[0].name).contains(\"Alamin\");\r",
 							"});\r",
 							"pm.test(\"Your test name\", function () {\r",
 							"    var jsonData = pm.response.json();\r",
-							"    pm.expect(jsonData.users[1].email).contains(\"system@test.com\");\r",
+							"    pm.expect(jsonData.users[1].email).contains(\"Phyllis.Leannon87@yahoo.com\");\r",
 							"});"
 						],
 						"type": "text/javascript"
@@ -87,7 +87,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "{{token}}",
+						"value": "{{tooken}}",
 						"type": "text"
 					}
 				],
@@ -153,7 +153,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "{{token}}",
+						"value": "{{tooken}}",
 						"type": "text"
 					},
 					{
@@ -191,7 +191,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "{{token}}",
+						"value": "{{tooken}}",
 						"type": "text"
 					},
 					{
@@ -227,7 +227,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "{{token}}",
+						"value": "{{tooken}}",
 						"type": "text"
 					},
 					{
@@ -266,7 +266,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "{{token}}",
+						"value": "{{tooken}}",
 						"type": "text"
 					},
 					{
@@ -317,25 +317,25 @@
 			"type": "string"
 		},
 		{
-			"key": "token",
-			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN5c3RlbUB0ZXN0LmNvbSIsInBhc3N3b3JkIjoiMTIzNCIsImlhdCI6MTY1NTkxMjk4MywiZXhwIjoxNjU1OTE0NzgzfQ.VAfROssF3nYBP6tCWjNNxL-CfpuF3epvXx4pNJ8zZzs"
-		},
-		{
 			"key": "secKey",
 			"value": "ROADTOSDET",
 			"type": "string"
 		},
 		{
 			"key": "phoneNumber",
-			"value": "01721723324"
+			"value": "01730634464"
 		},
 		{
 			"key": "nid",
-			"value": "56721723324"
+			"value": "56730634464"
 		},
 		{
 			"key": "id",
-			"value": 2281
+			"value": 3394
+		},
+		{
+			"key": "tooken",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN5c3RlbUB0ZXN0LmNvbSIsInBhc3N3b3JkIjoiMTIzNCIsImlhdCI6MTY1NjI3MjY1MywiZXhwIjoxNjU2Mjc0NDUzfQ.7uV9qjETADKYkDJh3EWoInjIbaouqKP1ZdJ9UUnv-3Y"
 		}
 	]
 }
